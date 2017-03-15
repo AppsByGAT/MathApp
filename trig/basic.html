@@ -11,11 +11,18 @@
 	<meta content="Gregory Tewksbury" name="author">
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<link href="../css/style.css" rel="stylesheet">
-	<script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript">
-	</script>
 </head>
 
 <body>
+	<!--MathJax-->
+	<script type="text/x-mathjax-config">
+	   MathJax.Hub.Config({
+	    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+	   });
+	</script> 
+	<script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML" type="text/javascript">
+	</script>
+
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
@@ -134,6 +141,75 @@
 					<p><a class="btn btn-primary btn-large" href="https://en.wikipedia.org/wiki/Trigonometry?utm_source=appsbygat&utm_campaign=appsbygat_math">Learn more</a>
 					</p>
 				</div>
+
+
+				<div class="tabbable" id="tabs-14595">
+					<ul class="nav nav-tabs">
+						<li class="active">
+							<a data-toggle="tab" href="#panel-842764">The Trig Functions</a>
+						</li>
+
+
+						<li>
+							<a data-toggle="tab" href="#panel-400095">Sine Function</a>
+						</li>
+					</ul>
+
+
+					<div class="tab-content">
+						<div class="tab-pane active" id="panel-842764">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									<div class="row">
+										<div class="col-md-4">
+											<a data-toggle="tooltip" href="https://commons.wikimedia.org/wiki/File%3ACircle-trig6.svg" title="By Original: Steven G. Johnson at English WikipediaDerivative work: Limaner (Circle-trig6.png) [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons"><img alt="Circle-trig6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Circle-trig6.svg/512px-Circle-trig6.svg.png" width="100%"></a>
+										</div>
+
+
+										<div class="col-md-8">
+											<dl class="dl-horizontal">
+												<dt>Sine</dt>
+
+
+												<dd>$\displaystyle \sin x = \frac{\text{opposite}}{\text{hypotenuse}}$</dd>
+
+
+												<dt>Euismod</dt>
+
+
+												<dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+
+
+												<dd>Donec id elit non mi porta gravida at eget metus.</dd>
+
+
+												<dt>Malesuada porta</dt>
+
+
+												<dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+
+
+												<dt>Felis euismod semper eget lacinia</dt>
+
+
+												<dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+											</dl>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="tab-pane" id="panel-400095">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									<p>Howdy, I'm in Section 2.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -142,6 +218,8 @@
 	<script src="../js/bootstrap.min.js">
 	</script> 
 	<script src="../js/scripts.js">
+	</script> 
+	<script src="../js/mathapp.js">
 	</script>
 </body>
 </html>
